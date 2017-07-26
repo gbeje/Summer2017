@@ -1,0 +1,4 @@
+This service takes a PoseStamped and returns a boolean. The PoseStamped is a goal pose and the boolean represents whether the service was successful. The code was originally written by Ryan and "service-ified" by Gal.
+The service calls the inverse kinematics service to get to the requested pose and slows down once it is near its destination. 
+
+Future feature: stop the arm if it hits an object  

@@ -1,0 +1,10 @@
+this package demonstrates various signals showing Baxter's intent to move. These signals are 
+-changing halo color
+-lighting up one side of the sonar lights 
+-lighting navigator (arm) lights
+-look (head moves right or left)
+-point (arm moves up and down) (Ryan)
+-twitch
+-visualization (Ryan)
+-gaze (facial expression)
+

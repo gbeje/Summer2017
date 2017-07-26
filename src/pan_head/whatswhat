@@ -1,0 +1,8 @@
+_node: baxter moves screen towards closest object its front sonars detect. scrolling window, expiration
+changes relative to _node: 
+
+_expire: if too much time elapses between current minimum's timestamp and most recent message timestamp, then the current minimum gets reset and finding a minimum starts over (copy of _node)
+
+_smallarray: array only holds distances from front sonars. finding minimum (unexpired) from the array instead of starting over if the current minimum expires
+
+

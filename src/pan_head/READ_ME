@@ -1,0 +1,1 @@
+This package will continuously move the head screen to an angle facing the nearest object (only in front of it - ie ignores the sensors on the back half of the head). There are multiple versions that vary slightly, explained in the comments of individual files. pan_head_node.cpp is the only one used when the package is run. 
